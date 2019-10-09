@@ -17,7 +17,7 @@ $(document).ready(function (){
         $('.burger').toggleClass('open');
         $('aside').toggleClass('open');
     });
-    // Resize para cerrar menú en cambio tamaño viewport
+    // Resize para cerrar menú en cambio tamaño
     $(window).on('resize', function(){
         $('.burger').removeClass('open');
         $('aside').removeClass('open');
